@@ -6,13 +6,14 @@
 
 ## Objectifs formateurs
 
-- Donner envie aux apprenants 
+- Faire rêver les apprenants
 - Rassurer les apprenants quant à l'accessibilité au métier de développeur
 
 ### Moyen d'évaluation des objectifs
 
 - Les apprenants posent des questions / participent
 - Le formateur pose lui aussi beaucoup de questions, les réponses permettent d'avoir un retour quant à la compréhension et l'enthousiasme des apprenants.
+- Sondages
 
 
 ### Contenu
