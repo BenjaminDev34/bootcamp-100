@@ -1,15 +1,15 @@
 # Journée 01 - présentation d'une heure
 
-## objectif apprenants
+## Objectif apprenants
 
 - identifier ce qu'est un développeur web (rôles, missions)
 
-## objectifs formateurs
+## Objectifs formateurs
 
 - Donner envie aux apprenants 
 - Rassurer les apprenants quant à l'accessibilité au métier de développeur
 
-### moyen d'évaluation des objectifs
+### Moyen d'évaluation des objectifs
 
 - Les apprenants posent des questions / participent
 - Le formateur pose lui aussi beaucoup de questions, les réponses permettent d'avoir un retour quant à la compréhension et l'enthousiasme des apprenants.
