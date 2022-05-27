@@ -33,6 +33,19 @@
 - Montrer l'envers du décor à l'aide de l'inspecteur de chrome
 - Comment on écrit du html et du css (parler des différents éditeurs de textes)
 
-## C'est partie, codons !
+## TP : Ma page de présentation
 
-- 
+- Expliquer la syntaxe (balise, balise auto fermante, indentation)
+- Passer sur codeSandBox, template créer avec la structure : https://codesandbox.io/s/premiere-page-857siy?file=/index.html
+
+**A partir d'ici on essai de les faire pratiquer un maximum, 2 ou 3 nouvelles balises, ils appliquent les balises, le but étant qu'ils s'amusent et de minimiser le magistral**
+
+- On explique rapidement les balises déjà présentent dans la structure
+
+<h1>Bailly Benjamin</h1>
+<p>Je m'appelle Bailly Benjamin, je suis formateur dans l'organisme de formation O'clock, j'ai 28 ans, je suis marié et j'ai 2 enfants</p>
+<p>
+    <a href="https://stackoverflow.com/">Lien du site que je consulte le plus tout les jours</a>
+</p>
+<img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80" alt="photo de moi">
+    
