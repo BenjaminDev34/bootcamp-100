@@ -41,8 +41,9 @@
 **A partir d'ici on essai de les faire pratiquer un maximum, 2 ou 3 nouvelles balises, ils appliquent les balises, le but étant qu'ils s'amusent et de minimiser le magistral**
 
 - On explique rapidement les balises déjà présentent dans la structure
+- On introduit les balises : ``` <h1>, <p>, <a>, <img> ```
 
-```
+```html
 <h1>Bailly Benjamin</h1>
 <p>Je m'appelle Bailly Benjamin, je suis formateur dans l'organisme de formation O'clock, j'ai 28 ans, je suis marié et j'ai 2 enfants</p>
 <p>
