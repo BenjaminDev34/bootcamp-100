@@ -69,3 +69,5 @@
         <li>Raclette</li>
     </ol>
 ```
+- Les balises : ``` <em>, <strong> ```
+- Pour les balises, plus haut vous pouvez réutiliser le premier paragraphe. **C'est un atelier de découverte, il est possible de faire un point sur la différence style / sémantique mais il n'a pas besoin d'être compris**
