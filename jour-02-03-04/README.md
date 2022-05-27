@@ -33,15 +33,16 @@
 - Montrer l'envers du décor à l'aide de l'inspecteur de chrome
 - Comment on écrit du html et du css (parler des différents éditeurs de textes)
 
-## TP : Ma page de présentation
+## TP : Qui suis-je ?
 
 - Expliquer la syntaxe (balise, balise auto fermante, indentation)
 - Passer sur codeSandBox, template créer avec la structure : https://codesandbox.io/s/premiere-page-857siy?file=/index.html
 
-**A partir d'ici on essai de les faire pratiquer un maximum, 2 ou 3 nouvelles balises, ils appliquent les balises, le but étant qu'ils s'amusent et de minimiser le magistral**
+**A partir d'ici on essai de les faire pratiquer un maximum, 2 ou 3 nouvelles balises qu'on montre, ils appliquent les balises, le but étant qu'ils s'amusent et de minimiser le magistral**
 
-- On explique rapidement les balises déjà présentent dans la structure
+- On explique les balises déjà présentent dans la structure
 - On introduit les balises : ``` <h1>, <p>, <a>, <img> ```
+- exemple à coder devant eux, ils font leur propre version une fois les balises expliquées :
 
 ```html
 <h1>Bailly Benjamin</h1>
@@ -51,3 +52,20 @@
 </p>
 <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80" alt="photo de moi">
 ```   
+- Les balises : ``` <h2>, <ol>, <ul> ````
+
+```html 
+  <h2>Mes hobbies</h2>
+    <ul>
+        <li>Handball</li>
+        <li>Football</li>
+        <li>Tout ce qui finit en ball ...</li>
+        <li>Jeux vidéos</li>
+    </ul>
+    <h2>Mes repas préférés</h2>
+    <ol>
+        <li>Fondue savoyarde</li>
+        <li>Hamburger</li>
+        <li>Raclette</li>
+    </ol>
+```
