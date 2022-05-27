@@ -42,10 +42,11 @@
 
 - On explique rapidement les balises déjà présentent dans la structure
 
+```
 <h1>Bailly Benjamin</h1>
 <p>Je m'appelle Bailly Benjamin, je suis formateur dans l'organisme de formation O'clock, j'ai 28 ans, je suis marié et j'ai 2 enfants</p>
 <p>
     <a href="https://stackoverflow.com/">Lien du site que je consulte le plus tout les jours</a>
 </p>
 <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80" alt="photo de moi">
-    
+```   
