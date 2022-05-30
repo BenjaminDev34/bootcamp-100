@@ -15,7 +15,6 @@
 
 ### Contenu - PAS à PAS
 
-
 ## Intro
 
 - **Posible d'utiliser ce petit support :** https://docs.google.com/presentation/d/18SrBw8s0t0CsLqcr7vDyxnQ_Jb8m9XYNLPrP43QAqMw/edit#slide=id.p
@@ -33,10 +32,11 @@
 - Montrer l'envers du décor à l'aide de l'inspecteur de chrome
 - Comment on écrit du html et du css (parler des différents éditeurs de textes)
 
-## TP : Qui suis-je ?
+## Apprendre en codant : Qui suis-je en HTML 
 
 - Expliquer la syntaxe (balise, balise auto fermante, indentation)
 - Passer sur codeSandBox, template créer avec la structure : https://codesandbox.io/s/premiere-page-857siy?file=/index.html
+- Penser à commender le code, il servira de support pour les apprenants
 
 **A partir d'ici on essai de les faire pratiquer un maximum, 2 ou 3 nouvelles balises qu'on montre, ils appliquent les balises, le but étant qu'ils s'amusent et de minimiser le magistral**
 
@@ -71,3 +71,124 @@
 ```
 - Les balises : ``` <em>, <strong> ```
 - Pour les balises, plus haut vous pouvez réutiliser le premier paragraphe. **C'est un atelier de découverte, il est possible de faire un point sur la différence style / sémantique mais il n'a pas besoin d'être compris**
+
+## TP : Pancake 
+
+- Afin de faire mettre en pratique tout ce que l'on vient de voir, faire réaliser une page HTML à partir d'une photo aux apprenants (tp_pancake.png).
+- Il faut bien laisser le temps au groupe, répondre aux questions.
+- Exo bonus pour les plus rapides ...
+- A l'aide de votre ami google, cherchez comment faire en css les choses suivantes :
+- Mettre une couleur de fond de votre choix sur toute le body https://developer.mozilla.org/fr/docs/Web/CSS/background-color
+- Rétrécir l'image à 400 pixel de largeur et 250 pixel de hauteur
+
+**Selon le timing, correction en livecode ou sinon envoi de la correction, profiter du bonus pour faire le lien avec la suite**
+
+## Apprendre en codant : Ameliorons le pancake
+
+- Refaire un point si ce n'est déjà fait sur le css, le fichier style qui est à part et comment il est appelé 
+- le background et l'image ont déjà été redimensionné suite à la correction du bonus, si ce n'est pas fait commencer par ça.
+- expliquer rapidement la notion de selecteur
+
+```css
+body{
+    background-color : #e1b382;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+```
+
+- On aimerait centrer le tout
+
+```css
+body{
+    background-color : #e1b382;
+    text-align : center;
+}
+```
+- Les listes ne rendent pas bien avec le centrage, on va enlever les puces
+- En profiter pour faire le point CSS POUR LA FORME et HTML pour la sémantique
+
+```css
+ol,
+ul {
+  list-style: none;
+}
+```
+
+- Avec la nouvelle couleur de fond la couleur noir fait un peu trop sombre sur nos textes, on va passer les textes en blanc
+
+```css
+body {
+  background-color: #e1b382;
+  text-align: center;
+  color: white;
+}
+```
+- Tout mettre en blanc, c'est un peu violent... Mini tp : laisser les apprenants changer la couleur de tout les titres et du lien par la couleur de leur choix
+- Bonus, demandé d'enlever le soulignement du lien
+
+```css
+h1,
+h2,
+h3 {
+  color: #2d545e;
+}
+a {
+  color: #2d545e;
+  text-decoration: none;
+}
+```
+
+- Changer le css d'un lien, rend le passage de la souris dessus moins dynamique (pas de changement de couleur), il est possible de changer cela
+- expliquer hover https://developer.mozilla.org/fr/docs/Web/CSS/:hover
+```css
+a:hover {
+  color: #12343b;
+}
+```
+
+- Créer une sorte de carte de cuisine en jouant avec la taille du body et la couleur de l'arriere plan (html)
+
+```css
+body {
+  background-color: #e1b382;
+  text-align: center;
+  color: white;
+  width: 500px;
+}
+html {
+  background-color: #2d545e;
+}
+```
+
+- Il ne reste plus qu'à centrer et omogénéiser tout ça
+- introduire les margins
+- introduire les paddings
+
+```css
+
+body {
+  background-color: #e1b382;
+  text-align: center;
+  color: white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50px;
+}
+
+```
+
+## TP : Qui suis-je en le retour
+
+- Laisser les apprenants profiter de leurs nouvelles connaissances en css pour améliorer leur présentation
+- N'hésitez pas à vous la raconter avec des animations ou autres 
+- Profiter du temps qu'il reste pour échanger avec eux 
+
+**Penser à récuperer le retour des apprenants à la fin sur un temps d'échange, c'est très important, la trame est modulable selon la participation/le niveau du groupe**
+

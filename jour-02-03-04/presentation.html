@@ -1,19 +1,32 @@
+<!-- Doctype précise au navigateur que le document est du html -->
 <!DOCTYPE html>
+<!-- On précise la langue (fr) -->
 <html lang="fr">
+<!-- Tout ce que contiendra la balise head correspond aux paramètres de notre page -->
 <head>
+    <!-- L'encodage de la page, UTF-8 est la norme la plus répandue -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Permet d'ajuster la page en cas d'affichage mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- lien vers le css -->
+    <link rel="stylesheet" href="presentation.css">
+    <!-- Titre de la page, que l'on voit dans l'onglet et dans les recherches google -->
     <title>Bailly Benjamin</title>
 </head>
 <body>
+    <!-- Titre de niveau 1, un seul titre de niveau 1 par page -->
     <h1>Bailly Benjamin</h1>
+    <!-- paragraphe, stong pour mettre un mot en avant (il sera en gras) et em pour italique -->
     <p>Je m'appelle <strong>Bailly Benjamin</strong>, je suis formateur dans l'organisme de formation O'clock, j'ai <em>28 ans</em>, je suis marié et j'ai 1 enfant</p>
     <p>
+    <!-- lien, href correspond à l'adresse, ce qu'il y a entre la balise a correspond au texte qui sera affichée -->
         <a href="https://stackoverflow.com/">Lien du site que je consulte le plus tous les jours</a>
     </p>
+    <!-- balise orpheline img, src correspond à ou se trouve l'image et le alt est un déscriptif textuel -->
+
     <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80" alt="photo de moi">
     <h2>Mes hobbies</h2>
+    <!-- ul pour une liste qui n'est pas ordonnée -->
     <ul>
         <li>Handball</li>
         <li>Football</li>
@@ -21,11 +34,11 @@
         <li>Jeux vidéos</li>
     </ul>
     <h2>Mes repas préférés</h2>
+    <!-- ol pour une liste ordonnée -->
     <ol>
         <li>Fondue savoyarde</li>
         <li>Hamburger</li>
         <li>Raclette</li>
     </ol>
-
 </body>
 </html>
