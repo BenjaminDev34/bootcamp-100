@@ -184,8 +184,9 @@ body {
 
 ```
 
-## TP : Qui suis-je en le retour
+## TP : Qui suis-je le retour
 
+- Support du pancake avec commentaires pour les aider : https://codesandbox.io/s/recette-pancakes-template-8ytrl0
 - Laisser les apprenants profiter de leurs nouvelles connaissances en css pour améliorer leur présentation
 - N'hésitez pas à vous la raconter avec des animations ou autres 
 - Profiter du temps qu'il reste pour échanger avec eux 
